@@ -1,7 +1,7 @@
 # 🚀 WebSocket Chat + Telegram Bot
 
-Simple real-time chat app using **FastAPI (WebSocket)** and **React (Vite)**.
-All messages are also sent to a Telegram bot.
+Простое приложение для чата в реальном времени, использующее **FastAPI (WebSocket)** и **React (Vite)**.
+Все сообщения также отправляются в Telegram-бота.
 
 ---
 
@@ -18,8 +18,8 @@ All messages are also sent to a Telegram bot.
 ### 1. Clone project
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/Fayozbek777/Websocket-Chat-Telegram.git
+cd Websocket-Chat-Telegram
 ```
 
 ---
@@ -33,7 +33,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Change `.env.example` file to `.env` file:
+Замените файл `.env.example` на файл `.env`:
 
 ```env
 BOT_TOKEN=your_bot_token
@@ -68,17 +68,17 @@ ws://localhost:8000/ws
 
 ## 💬 Features
 
-- Real-time chat (WebSocket)
-- Broadcast messages
-- Telegram bot integration
-- Simple UI
+- Чат в реальном времени (WebSocket)
+- Трансляция сообщений
+- Интеграция с Telegram-ботом
+- Простой пользовательский интерфейс
 
 ---
 
 ## 🔐 Notes
 
-- Do NOT expose your Telegram bot token
-- Add `.env` to `.gitignore`
+- НЕ раскрывайте токен вашего Telegram-бота
+- Добавьте `.env` в `.gitignore`
 
 ---
 
